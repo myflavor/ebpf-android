@@ -9,7 +9,7 @@ INC_DIR     := ./include
 LIB_DIR     := ./lib
 
 BPF_OBJ     := $(OUT_DIR)/hello.bpf.o
-USER_BIN    := $(OUT_DIR)/hello_android
+USER_BIN    := $(OUT_DIR)/hello_arm64
 
 BPF_CFLAGS  := -target bpf -g -O2 \
                --sysroot=$(SYSROOT) \
